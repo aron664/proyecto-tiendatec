@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
         <title>Mi Tienda Tec</title>
         <link rel="stylesheet" href="assets/css/estilos.css">
@@ -6,9 +7,9 @@
     <body>
         <header>
             <h1>Bienvenido a Mi Tienda Tec</h1>
-            <nav>
+            <nav aria-label="Principal">
                 <ul>
-                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="index.php" aria-current="page">Inicio</a></li>
                     <li><a href="productos.php">catalogo</a></li>
                     <li><a href="contacto.php">Contacto</a></li>    
                 </ul>

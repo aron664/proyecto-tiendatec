@@ -1,15 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mi Tienda Tec - productos</title>
                 <link rel="stylesheet" href="assets/css/estilos.css">
     </head>
     <body>
         <header>
             <h1>Productos</h1>
-            <nav>
+            <nav aria-label="Principal">
                 <ul>
                     <li><a href="index.php">Inicio</a></li>
-                    <li><a href="productos.php">catalogo</a></li>
+                    <li><a href="productos.php" aria-current="page">catalogo</a></li>
                     <li><a href="contacto.php">Contacto</a></li>    
                 </ul>
             </nav>
